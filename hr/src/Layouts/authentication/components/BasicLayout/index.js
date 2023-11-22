@@ -20,14 +20,14 @@ import PropTypes from "prop-types";
 import Grid from "@mui/material/Grid";
 
 // Material Dashboard 2 React components
-import MDBox from "components/MDBox";
+import MDBox from "../../../../Components/MDBox";
 
 // Material Dashboard 2 React example components
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import PageLayout from "examples/LayoutContainers/PageLayout";
+import DefaultNavbar from "../../../../examples/Navbars/DashboardNavbar/index";
+import PageLayout from "../../../../examples/LayoutContainers/PageLayout/index";
 
 // Authentication pages components
-import Footer from "layouts/authentication/components/Footer";
+import Footer from "../Footer/index";
 
 function BasicLayout({ image, children }) {
   return (

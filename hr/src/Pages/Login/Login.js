@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 import { useState } from "react";
 
 // @mui material components
@@ -13,16 +13,16 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import GoogleIcon from "@mui/icons-material/Google";
 
 // Material Dashboard 2 React components
-import MDBox from "components/MDBox";
-import MDTypography from "components/MDTypography";
-import MDInput from "components/MDInput";
-import MDButton from "components/MDButton";
+import MDBox from "../../Components/MDBox";
+import MDTypography from "../../Components/MDTypography";
+import MDInput from "../../Components/MDInput";
+import MDButton from "../../Components/MDButton";
 
 // Authentication layout components
-import BasicLayout from "layouts/authentication/components/BasicLayout";
+import BasicLayout from "../../Layouts/authentication/components/BasicLayout";
 
 // Images
-import bgImage from "assets/images/bg-sign-in-basic.jpeg";
+import bgImage from "../../assets/images/bg-sign-up-cover.jpeg";
 
 function Basic() {
   const [rememberMe, setRememberMe] = useState(false);
